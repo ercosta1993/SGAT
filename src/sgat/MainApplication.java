@@ -6,7 +6,6 @@
 package sgat;
 
 import java.io.IOException;
-import sgat.controller.SeleniumController;
 
 /**
  *
@@ -14,7 +13,6 @@ import sgat.controller.SeleniumController;
  */
 public class MainApplication {
     public static void main(String[] args) throws IOException, InterruptedException {
-        SeleniumController c = new SeleniumController();
-        c.findByTrace(647541);
+        //SeleniumController s = new SeleniumController();
     }
 }
